@@ -1,5 +1,5 @@
-# the utility I wrote to change the wallpaper
-alias wallpaper="feh --bg-center"
+# change the wallpaper
+alias wallpaper="feh --bg-center" # [FILE]
 # the cheat sheet
 #alias cheatcodes="cat ~/Documents/cheatsheet.txt"
 # mud development folder
