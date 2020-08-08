@@ -1,10 +1,14 @@
-# sleep for only 1 second to get the background to refresh
-while true; do xsetroot -name " PUB: $(pubip.sh) | $(whoami) | $(date +"%y-%m-%d %H:%M ")";sleep 1; done &
-
+# public ip, username, date/time
+~/.dwmtray.sh &
+# fixex firefox mousewheelbug
 xmodmap ~/.Xmodmap
+# switches to user main directory
 cd ~/
-
+# sets the videomode to fit the screen
 xrandr --output VGA-0 --auto
+# fancy transparency
 xcompmgr &
+# set the background
 ~/.fehbg
+# and, finally, start the window manager
 exec dwm
