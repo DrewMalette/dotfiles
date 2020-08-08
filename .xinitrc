@@ -1,6 +1,6 @@
 # public ip, username, date/time
 ~/.dwmtray.sh &
-# fixex firefox mousewheelbug
+# fixes firefox mousewheelbug
 xmodmap ~/.Xmodmap
 # switches to user main directory
 cd ~/
